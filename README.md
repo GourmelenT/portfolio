@@ -1,11 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-### Follow the tutoriel by JavaScript Mastery :
-Link on Youtube [1min44] : https://www.youtube.com/watch?v=0fYi8SGA20k
+# Portfolio in React with Three.JS and Framer Motion
+### 🚨 Warning 🚨 ###
+I didn't design this portfolio model. The purpose of this repository was for me to learn how to use the Three.JS and Framer Motion tools. I was also able to learn how to use Tailwind CSS. I followed the JavaScript Mastery tutorial on Youtube. Afterwards, I modified the site to my image and turned it into my portfolio. 

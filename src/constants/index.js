@@ -14,12 +14,13 @@ import {
   vuejs,
   git,
   meta,
-  starbucks,
+  swelladdiction,
+  carrent,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  punto,
+  todolist,
+  weather,
   symfony,
   bootstrap,
   python,
@@ -29,11 +30,11 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "A propos",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Expériences",
   },
   {
     id: "contact",
@@ -43,19 +44,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Développeur Web",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Passion marine",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Pilote de drone",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Conception 3D",
     icon: creator,
   },
 ];
@@ -121,64 +122,64 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Projectionistes",
-    company_name: "Cinéma l'Image - Plougastel",
-    icon: starbucks,
+    title: "Vendeur Nautique",
+    company_name: "SwellAddiction - Brest",
+    icon: swelladdiction,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Mars 2018 (3 jours)",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Stage d'observation des métiers de la vente dans un magasin d'articles de sports nautiques.",
+      "Participation à l'inventaire et découverte du fonctionnement de la vente en ligne du magasin.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Projectionniste",
+    company_name: "Cinéma l'Image - Plougastel",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Avril 2019 (10 jours)",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Découverte des coulisses d'un cinéma, projection de films pendant mes temps disponibles.",
+      "Découverte de son organisation et de la logistique autour de la réception des films.",
+      "Récupération des clés d'exploitation des films puis téléversement des films sur les projecteurs.",
+      "Impression, vérification du stocks et vente de billets de cinéma.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Chargé d'études réseau",
+    company_name: "CEREMA - Plouzané",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Avril 2022 (4 jours)",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Découverte de l'architecture, de l'administration, et de la gestion des organes de sécurité du réseau des CROSS (Centre Régionaux Opérationnels de Surveillance et de Sauvetage),",
+      "Découverte d'outils utilisés pour la sécurité des données (Stormshield, CISCO).",
+      "Découverte de différents outils permettant d'évaluer le trafic maritime dans la Manche et utilisation de ces derniers pour analyser les risques liés à la circulation maritime (conflits d'usage)",
+      "Découverte de plusieurs projets utilisant des drones pour la surveillance et la protection de l'environnement",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Technicien développement web en alternance",
+    company_name: "Ifremer - Direction Générale et département de l’Infrastructures de Recherche et Système d’Information  - Plouzané",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Septembre 2022 - Present (24 mois)",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conception et réalisation d'outils web pour le recueil de signalement en déontologie et santé publique et d’environnement (Mise en application de la loi n°2013-907 du 11 octobre 2013 relative à la transparence de la vie publique).",
+      "Utilisation du plug-in QuForm de WordPress pour la création de nombreux formulaires.",
+      "Création d'un diagramme UML qui a donné suite à une base de données stockés sur PostgreSQL.",
+      "Création d'un script permettant d'insérer les données, d'un fichier CSV récupéré de la plateforme QuForm, dans une base données.",
+      "Mise à jour des thématiques de la Direction Générale sur l'intranet de l'entreprise avec eZPublish.",
+      "Utilisation de plusieurs langages, logiciels et progiciels dédiés à l’interfaçage web tels que PHP, JavaScript, Twig, Symfony 6 et PostgreSQL.",
     ],
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Jeu Punto",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Il s'agit d'une application web qui vous permet de jouer au jeu Punto. Elle est codée avec ReactJS et dispose d'un système de gestion de base de données.",
     tags: [
       {
         name: "react",
@@ -189,45 +190,53 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Neo4J",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: punto,
+    source_code_link: "https://github.com/GourmelenT/punto-project/",
   },
   {
-    name: "Trip Guide",
+    name: "To-Do List",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Ici nous avons dû créer une Todolist à l'aide du framework VueJS. Le but était de se familiariser avec VueJS et l'utilisation du stockage local (LocalStorage) pour sauvegarder les données de l'utilisateur.",
     tags: [
       {
-        name: "nextjs",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "vuejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "localstorage",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: todolist,
+    source_code_link: "https://github.com/GourmelenT/todolist-website",
+  },
+  {
+    name: "Weather Website",
+    description:
+      "Application web fournissant des prévisions météorologiques. Cette application nous a permis de commencer à coder en Javascript et d'utiliser une API mise à disposition pour ce projet.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "api",
         color: "green-text-gradient",
       },
       {
@@ -235,8 +244,33 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: weather,
+    source_code_link: "https://github.com/GourmelenT/weather-website",
+  },
+  {
+    name: "Concession Automobile",
+    description:
+      "Pour cette application web, nous devions produire un rapport d'utilisation détaillé sur l'outil MongoDB. Pour ce faire, nous avons dû créer un site web avec React et Express JS pour faire le côté serveur et le côté client.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/GourmelenT/projet-react-JS-MongoDB",
   },
 ];
 

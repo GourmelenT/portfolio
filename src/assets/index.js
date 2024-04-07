@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -24,12 +24,13 @@ import arduino from "./tech/arduino.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import swelladdiction from "./company/swelladdiction.png";
 import tesla from "./company/tesla.png";
 
+import punto from "./punto.png";
+import todolist from "./todolist.png";
+import weather from "./weather.png";
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -40,6 +41,7 @@ export {
   github,
   menu,
   close,
+  carrent,
   css,
   vuejs,
   symfony,
@@ -54,11 +56,11 @@ export {
   tailwind,
   meta,
   shopify,
-  starbucks,
+  swelladdiction,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  punto,
+  todolist,
+  weather,
   bootstrap,
   python,
 };
