@@ -16,11 +16,12 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Salut, moi c'est <span className='text-[#E08A00]'>Tom</span>
+            Tom <span className='text-[#E08A00]'>Gourmelen</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Je suis étudiant en Informatique à l'IUT de Vannes. Je suis à la recherche <br className='sm:block hidden' />
-            d'une alterance pour un contrat de trois ans en école d'ingénieur.
+            Je suis étudiant en dernière année de B.U.T. Informatique à l'IUT de Vannes. Et
+            je suis actuellement à la recherche d'une alterance pour un contrat de
+            trois ans en école d'ingénieur.
           </p>
         </div>
       </div>

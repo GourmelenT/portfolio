@@ -84,7 +84,7 @@ const Works = () => {
             travers des exemples concrets de mes réalisations. Chaque projet est brièvement 
             décrit avec des liens vers des dépôts de code. Cela permet de vous montrer ma 
             capacité à travailler avec différentes technologies et à gérer mes projets de 
-            manière efficace.
+            manière efficace. 
             </motion.p>
         </div>
 

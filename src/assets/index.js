@@ -1,8 +1,8 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import drone from "./drone.jpg";
+import dmodel from "./dmodel.jpg";
+import sea from "./sea.jpg";
+import astronomy from "./astronomy.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -22,26 +22,28 @@ import bootstrap from "./tech/bootstrap.png"
 import python from "./tech/python.svg"
 import arduino from "./tech/arduino.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import ifremer from "./company/ifremer.png";
+import cerema from "./company/cerema.png";
 import swelladdiction from "./company/swelladdiction.png";
-import tesla from "./company/tesla.png";
+import cinema from "./company/cinema.png";
 
 import punto from "./punto.png";
 import todolist from "./todolist.png";
 import weather from "./weather.png";
 import carrent from "./carrent.png";
+import navalbattle from "./navalbattle.png"
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  drone,
+  dmodel,
+  astronomy,
   github,
   menu,
   close,
+  navalbattle,
   carrent,
+  sea,
   css,
   vuejs,
   symfony,
@@ -54,10 +56,10 @@ export {
   nodejs,
   reactjs,
   tailwind,
-  meta,
-  shopify,
+  ifremer,
+  cerema,
   swelladdiction,
-  tesla,
+  cinema,
   punto,
   todolist,
   weather,

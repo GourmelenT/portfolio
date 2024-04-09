@@ -20,12 +20,12 @@ const ServiceCard = ({index, title, icon}) => {
             scale: 1,
             speed: 450,
           }}
-          className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+          className='bg-tertiary rounded-[20px] py-5 px-8 min-h-[280px] flex justify-evenly items-center flex-col'
         >
           <img
             src={icon}
             alt='web-development'
-            className='w-16 h-16 object-contain'
+            className='rounded-[20px] mb-5 w-30 object-contain'
           />
 
           <h3 className='text-white text-[20px] font-bold text-center'>
@@ -50,10 +50,11 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         Je suis un développeur logiciels avec une expérience en PHP et JavaScript, 
-        ainsi qu'avec les frameworks tels que React, Node.js et Symfony. J'apprends 
+        ainsi qu'avec les frameworks React, Node.Js et Symfony. J'apprends 
         rapidement en créant avec différents langages sur des petits projets. Je suis 
         curieux de nature, déterminé et j'ai toujours la volonté d'en apprendre plus 
-        sur une multitude de thématiques. Travaillons ensemble pour donner vie à vos idées !
+        sur une multitude de thématiques. Mais en dehors de la programmation, j'ai 
+        également d'autres passions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

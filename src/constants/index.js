@@ -1,8 +1,6 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  drone,
+  dmodel,
   javascript,
   html,
   css,
@@ -13,11 +11,11 @@ import {
   mongodb,
   vuejs,
   git,
-  meta,
+  ifremer,
   swelladdiction,
   carrent,
-  tesla,
-  shopify,
+  cinema,
+  cerema,
   punto,
   todolist,
   weather,
@@ -25,6 +23,9 @@ import {
   bootstrap,
   python,
   arduino,
+  astronomy,
+  sea,
+  navalbattle,
 } from "../assets";
 
 export const navLinks = [
@@ -44,20 +45,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Développeur Web",
-    icon: web,
+    title: "Astronomie",
+    icon: astronomy,
   },
   {
-    title: "Passion marine",
-    icon: mobile,
+    title: "Monde marin",
+    icon: sea,
   },
   {
-    title: "Pilote de drone",
-    icon: backend,
+    title: "Activité drone",
+    icon: drone,
   },
   {
     title: "Conception 3D",
-    icon: creator,
+    icon: dmodel,
   },
 ];
 
@@ -122,33 +123,24 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Vendeur Nautique",
-    company_name: "SwellAddiction - Brest",
-    icon: swelladdiction,
-    iconBg: "#383E56",
-    date: "Mars 2018 (3 jours)",
-    points: [
-      "Stage d'observation des métiers de la vente dans un magasin d'articles de sports nautiques.",
-      "Participation à l'inventaire et découverte du fonctionnement de la vente en ligne du magasin.",
-    ],
-  },
-  {
-    title: "Projectionniste",
-    company_name: "Cinéma l'Image - Plougastel",
-    icon: tesla,
+    title: "Technicien développement web en alternance",
+    company_name: "Ifremer - Direction Générale et département de l’Infrastructures de Recherche et Système d’Information  - Plouzané",
+    icon: ifremer,
     iconBg: "#E6DEDD",
-    date: "Avril 2019 (10 jours)",
+    date: "Septembre 2022 - Présent (24 mois)",
     points: [
-      "Découverte des coulisses d'un cinéma, projection de films pendant mes temps disponibles.",
-      "Découverte de son organisation et de la logistique autour de la réception des films.",
-      "Récupération des clés d'exploitation des films puis téléversement des films sur les projecteurs.",
-      "Impression, vérification du stocks et vente de billets de cinéma.",
+      "Conception et réalisation d'outils web pour le recueil de signalement en déontologie et santé publique et d’environnement (Mise en application de la loi n°2013-907 du 11 octobre 2013 relative à la transparence de la vie publique).",
+      "Utilisation du plug-in QuForm de WordPress pour la création de nombreux formulaires.",
+      "Création d'un diagramme UML qui a donné suite à une base de données stockés sur PostgreSQL.",
+      "Création d'un script permettant d'insérer les données, d'un fichier CSV récupéré de la plateforme QuForm, dans une base données.",
+      "Mise à jour des thématiques de la Direction Générale sur l'intranet de l'entreprise avec eZPublish.",
+      "Utilisation de plusieurs langages, logiciels et progiciels dédiés à l’interfaçage web tels que PHP, JavaScript, Twig, Symfony 6 et PostgreSQL.",
     ],
   },
   {
     title: "Chargé d'études réseau",
     company_name: "CEREMA - Plouzané",
-    icon: shopify,
+    icon: cerema,
     iconBg: "#383E56",
     date: "Avril 2022 (4 jours)",
     points: [
@@ -159,20 +151,28 @@ const experiences = [
     ],
   },
   {
-    title: "Technicien développement web en alternance",
-    company_name: "Ifremer - Direction Générale et département de l’Infrastructures de Recherche et Système d’Information  - Plouzané",
-    icon: meta,
+    title: "Projectionniste",
+    company_name: "Cinéma l'Image - Plougastel",
+    icon: cinema,
     iconBg: "#E6DEDD",
-    date: "Septembre 2022 - Present (24 mois)",
+    date: "Avril 2019 (10 jours)",
     points: [
-      "Conception et réalisation d'outils web pour le recueil de signalement en déontologie et santé publique et d’environnement (Mise en application de la loi n°2013-907 du 11 octobre 2013 relative à la transparence de la vie publique).",
-      "Utilisation du plug-in QuForm de WordPress pour la création de nombreux formulaires.",
-      "Création d'un diagramme UML qui a donné suite à une base de données stockés sur PostgreSQL.",
-      "Création d'un script permettant d'insérer les données, d'un fichier CSV récupéré de la plateforme QuForm, dans une base données.",
-      "Mise à jour des thématiques de la Direction Générale sur l'intranet de l'entreprise avec eZPublish.",
-      "Utilisation de plusieurs langages, logiciels et progiciels dédiés à l’interfaçage web tels que PHP, JavaScript, Twig, Symfony 6 et PostgreSQL.",
+      "Découverte des coulisses d'un cinéma, de son organisation et de sa logistique.",
+      "Récupération des clés d'exploitation des films puis téléversement des films sur les projecteurs.",
+      "Impression, vérification du stocks et vente de billets de cinéma.",
     ],
   },
+  {
+    title: "Vendeur Nautique",
+    company_name: "SwellAddiction - Brest",
+    icon: swelladdiction,
+    iconBg: "#383E56",
+    date: "Mars 2018 (3 jours)",
+    points: [
+      "Stage d'observation des métiers de la vente dans un magasin d'articles de sports nautiques.",
+      "Participation à l'inventaire et découverte du fonctionnement de la vente en ligne du magasin.",
+    ],
+  },  
 ];
 
 const projects = [
@@ -271,6 +271,23 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/GourmelenT/projet-react-JS-MongoDB",
+  },
+  {
+    name: "Bataille Navale",
+    description:
+      "Pour cette application web, nous devions produire un rapport d'utilisation détaillé sur l'outil MongoDB. Pour ce faire, nous avons dû créer un site web avec React et Express JS pour faire le côté serveur et le côté client.",
+    tags: [
+      {
+        name: "c++",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "eclipse",
+        color: "green-text-gradient",
+      },
+    ],
+    image: navalbattle,
+    source_code_link: "https://github.com/GourmelenT/projet_naval_battle",
   },
 ];
 
