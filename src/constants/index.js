@@ -1,6 +1,6 @@
 import {
   drone,
-  dmodel,
+  underwater,
   javascript,
   html,
   css,
@@ -11,11 +11,15 @@ import {
   mongodb,
   vuejs,
   git,
+  dronemovie,
+  surf,
   ifremer,
   swelladdiction,
   carrent,
   cinema,
   cerema,
+  moon,
+  undersea,
   punto,
   todolist,
   weather,
@@ -49,16 +53,39 @@ const services = [
     icon: astronomy,
   },
   {
-    title: "Monde marin",
+    title: "Les vagues",
     icon: sea,
   },
   {
-    title: "Activité drone",
-    icon: drone,
+    title: "Sous la mer",
+    icon: underwater,
   },
   {
-    title: "Conception 3D",
-    icon: dmodel,
+    title: "Drone loisir",
+    icon: drone,
+  },
+];
+
+const informations = [
+  {
+    text: "Depuis mon enfance, je me suis toujours posé la question de savoir si nous étions seuls dans l'univers. En grandissant, j'ai réalisé que cette réponse est peut-être au-delà de notre portée actuelle, mais que nous avons encore tant à explorer. Pour assouvir ma curiosité et contempler les merveilles célestes inaccessibles à l'œil nu, j'ai investi dans un télescope. Chaque fois que le ciel le permet, je m'émerveille devant la beauté infinie de l'espace.",
+    image: moon,
+    type: "image",
+  },
+  {
+    text: "Depuis que j'ai six ans, je suis attiré par le monde aquatique. J'ai commencé par le body-board avec une vieille planche appartenant à ma mère, puis j'ai rapidement évolué vers le surf. Bien que mes débuts aient été difficiles avec une planche trop avancée pour mon niveau, j'ai persévéré. Plus tard, j'ai découvert le Stand Up Paddle en club, puis en compétition, et j'ai combiné ma passion pour le surf avec le Sup Surf. Récemment, j'ai adopté le Wing Foil, un sport qui me donne la sensation de voler au-dessus de l'eau, surtout durant les périodes venteuses.",
+    image: surf,
+    type: "image",
+  },
+  {
+    text: "Lors de mes vacances à Lanzarote en décembre 2022, j'ai eu l'occasion de découvrir la plongée en apnée avec l'entraîneur de l'équipe de France, Christian Vogler. En rentrant chez moi à Brest, j'ai été inspiré à continuer à explorer ce monde sous-marin. J'ai acheté un masque, un tuba et des palmes pour retrouver les sensations éprouvées à Lanzarote. Malgré la différence de température, je suis convaincu que ce sport continuera à m'entraîner à améliorer mes performances en apnée et à découvrir toujours plus de merveilles sous-marines.",
+    image: undersea,
+    type: "video",
+  },
+  {
+    text: "Depuis toujours, j'ai été fasciné par les films captivants avec des prises de vue spectaculaires. Je me suis souvent demandé comment ces images de qualité exceptionnelle étaient réalisées et comment elles pouvaient captiver autant les spectateurs. Ainsi, avant mon voyage à Lanzarote, j'ai investi dans un drone Mavic Mini 2. Ainsi j'ai pu découvrir une autre façon d'aimer les promenades mais cette fois-ci dans les aires comme le montre la vidéo présenté ici. A présent, dès que le soleil brille sur les côtes bretonnes, je saisis l'occasion pour capturer des images aériennes époustouflantes.",
+    image: dronemovie,
+    type: "video",
   },
 ];
 
@@ -291,4 +318,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, informations, technologies, experiences, projects };

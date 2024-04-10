@@ -1,11 +1,21 @@
 import logo from "./logo.png";
-import drone from "./drone.jpg";
-import dmodel from "./dmodel.jpg";
-import sea from "./sea.jpg";
-import astronomy from "./astronomy.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import song from "./song.mp3"
+
+import drone from "./about/drone.jpg";
+import underwater from "./about/underwater.jpg";
+import sea from "./about/sea.jpg";
+import astronomy from "./about/astronomy.png";
+
+import scope from "./about/scope.png";
+import moon from "./about/moon.jpeg";
+import surf from "./about/surf.jpeg";
+import wing from "./about/wing.jpeg";
+import undersea from "./about/submarin.mp4";
+import dronemovie from "./about/drone.mp4";
+
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -35,18 +45,25 @@ import navalbattle from "./navalbattle.png"
 
 export {
   logo,
+  song,
   drone,
-  dmodel,
+  underwater,
   astronomy,
   github,
   menu,
+  surf,
   close,
   navalbattle,
   carrent,
   sea,
   css,
+  scope,
+  wing,
+  moon,
   vuejs,
   symfony,
+  undersea,
+  dronemovie,
   git,
   html,
   javascript,

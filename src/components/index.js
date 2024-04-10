@@ -6,10 +6,14 @@ import Tech from './Tech';
 import Experience from './Experience';
 import Works from './Works';
 import Contact from './Contact';
+import Footer from './Footer';
+import CreditsPage from './CreditsPage';
 
 export {
   Hero,
   Navbar,
+  Footer,
+  CreditsPage,
   About,
   Tech,
   Experience,
