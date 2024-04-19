@@ -13,9 +13,11 @@ import {
   git,
   dronemovie,
   surf,
+  solarsystem,
   ifremer,
   swelladdiction,
   carrent,
+  pnrproject,
   cinema,
   cerema,
   moon,
@@ -40,6 +42,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Expériences",
+  },
+  {
+    id: "project",
+    title: "Projets",
   },
   {
     id: "contact",
@@ -316,6 +322,45 @@ const projects = [
     image: navalbattle,
     source_code_link: "https://github.com/GourmelenT/projet_naval_battle",
   },
+  {
+    name: "Projet PNR",
+    description:
+      "L'objectif de cette application était de réaliser une application permettant au parc naturel régional du Golfe du Morbihan, de saisir des données afin d'y voir plus clair dans le processus d'observation d'espèce.",
+    tags: [
+      {
+        name: "javaswing",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vscode",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pnrproject,
+    source_code_link: "https://github.com/GourmelenT/pnr-project-javaswing",
+  },
+  {
+    name: "Astronomie Python",
+    description:
+      "Dans ce dépôt, j'essaie d'en apprendre toujours plus dans l'apprentissage du langage Python. Mon objectif est de m'intéresser de plus près à son utilisation en astronomie. Actuellement j'en ai appris plus sur la réalisation d'une simulation du système solaire.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vscode",
+        color: "green-text-gradient",
+      },
+    ],
+    image: solarsystem,
+    source_code_link: "https://github.com/GourmelenT/astronomy-project",
+  },
+  
 ];
 
 export { services, informations, technologies, experiences, projects };

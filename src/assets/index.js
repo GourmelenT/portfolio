@@ -41,13 +41,16 @@ import punto from "./punto.png";
 import todolist from "./todolist.png";
 import weather from "./weather.png";
 import carrent from "./carrent.png";
-import navalbattle from "./navalbattle.png"
+import navalbattle from "./navalbattle.png";
+import pnrproject from "./pnr.gif";
+import solarsystem from "./SolarSystem.gif"
 
 export {
   logo,
   song,
   drone,
   underwater,
+  pnrproject,
   astronomy,
   github,
   menu,
@@ -78,6 +81,7 @@ export {
   swelladdiction,
   cinema,
   punto,
+  solarsystem,
   todolist,
   weather,
   bootstrap,
