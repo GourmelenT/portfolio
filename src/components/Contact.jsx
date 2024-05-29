@@ -79,13 +79,13 @@ const Contact = () => {
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Votre prénom :</span>
+            <span className='text-white font-medium mb-4'>NOM et Prénom :</span>
             <input
               type='text'
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="Quel est votre nom ?"
+              placeholder="DOE John"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium focus:bg-tertiary-light'
               required
             />
@@ -97,7 +97,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="A quelle adresse e-mail vous contactez ?"
+              placeholder="A quelle adresse e-mail puis-je vous contacter ?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium focus:bg-tertiary-light'
               required
             />

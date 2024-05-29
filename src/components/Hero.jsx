@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Je suis étudiant en dernière année de B.U.T. Informatique à l'IUT de Vannes. Et
-            je suis actuellement à la recherche d'une alterance pour un contrat de
+            je suis actuellement à la recherche d'une alternance pour un contrat de
             trois ans en école d'ingénieur.
           </p>
         </div>

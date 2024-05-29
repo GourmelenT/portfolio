@@ -27,6 +27,7 @@ import {
   weather,
   symfony,
   bootstrap,
+  tycolibri,
   python,
   arduino,
   astronomy,
@@ -74,12 +75,12 @@ const services = [
 
 const informations = [
   {
-    text: "Depuis mon enfance, je me suis toujours posé la question de savoir si nous étions seuls dans l'univers. En grandissant, j'ai réalisé que cette réponse est peut-être au-delà de notre portée actuelle, mais que nous avons encore tant à explorer. Pour assouvir ma curiosité et contempler les merveilles célestes inaccessibles à l'œil nu, j'ai investi dans un télescope. Chaque fois que le ciel le permet, je m'émerveille devant la beauté infinie de l'espace.",
+    text: "Depuis mon enfance, je me suis toujours posé la question de savoir si nous étions seuls dans l'univers. En grandissant, j'ai réalisé que cette réponse est peut-être au-delà de notre portée actuelle. Nous avons encore tant à explorer. Pour assouvir ma curiosité et contempler les merveilles célestes inaccessibles à l'œil nu, j'ai investi dans un télescope. Chaque fois que le ciel le permet, je m'émerveille devant la beauté infinie de l'espace.",
     image: moon,
     type: "image",
   },
   {
-    text: "Depuis que j'ai six ans, je suis attiré par le monde aquatique. J'ai commencé par le body-board avec une vieille planche appartenant à ma mère, puis j'ai rapidement évolué vers le surf. Bien que mes débuts aient été difficiles avec une planche trop avancée pour mon niveau, j'ai persévéré. Plus tard, j'ai découvert le Stand Up Paddle en club, puis en compétition, et j'ai combiné ma passion pour le surf avec le Sup Surf. Récemment, j'ai adopté le Wing Foil, un sport qui me donne la sensation de voler au-dessus de l'eau, surtout durant les périodes venteuses.",
+    text: "Ayant grandi dans un environnement marins, depuis mes six ans, j'ai pratiqué le body-board, puis j'ai rapidement évolué vers le surf. Bien que mes débuts aient été difficiles avec une planche trop avancée pour mon niveau, j'ai persévéré. Plus tard, j'ai découvert le Stand Up Paddle en club, puis en compétition, et j'ai combiné ma passion pour le surf avec le Sup Surf. Récemment, j'ai adopté le Wing Foil, un sport qui me donne la sensation de voler au-dessus de l'eau, surtout durant les périodes venteuses.",
     image: surf,
     type: "image",
   },
@@ -89,7 +90,7 @@ const informations = [
     type: "video",
   },
   {
-    text: "Depuis toujours, j'ai été fasciné par les films captivants avec des prises de vue spectaculaires. Je me suis souvent demandé comment ces images de qualité exceptionnelle étaient réalisées et comment elles pouvaient captiver autant les spectateurs. Ainsi, avant mon voyage à Lanzarote, j'ai investi dans un drone Mavic Mini 2. Ainsi j'ai pu découvrir une autre façon d'aimer les promenades mais cette fois-ci dans les aires comme le montre la vidéo présenté ici. A présent, dès que le soleil brille sur les côtes bretonnes, je saisis l'occasion pour capturer des images aériennes époustouflantes.",
+    text: "Passioné par les réalisations spéctaculaires, filmés par des drones cinématiques, je me suis fourni avant mon voyage à Lanzarote, un drone Mavic Mini 2. Ainsi j'ai pu découvrir une autre façon d'aimer les promenades mais cette fois-ci dans les aires comme le montre la vidéo présenté ici. A présent, dès que le soleil brille sur les côtes bretonnes, je saisis l'occasion pour capturer des images aériennes époustouflantes.",
     image: dronemovie,
     type: "video",
   },
@@ -325,7 +326,7 @@ const projects = [
   {
     name: "Projet PNR",
     description:
-      "L'objectif de cette application était de réaliser une application permettant au parc naturel régional du Golfe du Morbihan, de saisir des données afin d'y voir plus clair dans le processus d'observation d'espèce.",
+      "L'objectif de cette application était de réaliser une application permettant au parc naturel régional du Golfe du Morbihan, de saisir des données afin d'y voir plus clair dans le processus d'observation d'espèces.",
     tags: [
       {
         name: "javaswing",
@@ -346,7 +347,7 @@ const projects = [
   {
     name: "Astronomie Python",
     description:
-      "Dans ce dépôt, j'essaie d'en apprendre toujours plus dans l'apprentissage du langage Python. Mon objectif est de m'intéresser de plus près à son utilisation en astronomie. Actuellement j'en ai appris plus sur la réalisation d'une simulation du système solaire.",
+      "Dans ce dépôt, j'essaie d'en apprendre toujours plus dans l'apprentissage du langage Python. Mon objectif est de m'intéresser de plus près à son utilisation en astronomie. Actuellement, j'en ai appris plus sur la réalisation d'une simulation du système solaire.",
     tags: [
       {
         name: "python",
@@ -360,7 +361,32 @@ const projects = [
     image: solarsystem,
     source_code_link: "https://github.com/GourmelenT/astronomy-project",
   },
-  
+  {
+    name: "Projet Ty-Colibri",
+    description:
+      "Voici un de nos tout premiers sites web. Ici, nous avons appris à reprendre un template déjà créé et nous l'avons simplement modifié pour le restaurant associatif 'Ty-Colibri'.",
+    tags: [
+      {
+        name: "WordPress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML/CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vscode",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tycolibri,
+    source_code_link: "https://github.com/GourmelenT/ty-colibri",
+    link_web: "https://tycolibri.gourmelen-tom.com",
+  },
 ];
 
 export { services, informations, technologies, experiences, projects };

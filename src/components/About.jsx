@@ -85,12 +85,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Je suis un développeur logiciels avec une expérience en PHP et JavaScript, 
-        ainsi qu'avec les frameworks React, Node.Js et Symfony. J'apprends 
-        rapidement en créant avec différents langages sur des petits projets. Je suis 
-        curieux de nature, déterminé et j'ai toujours la volonté d'en apprendre plus 
-        sur une multitude de thématiques. Mais en dehors de la programmation, j'ai 
-        également d'autres passions.
+        Doté d'une solide expérience en PHP, JavaScript, ReactJS, Node.js et Symfony, 
+        je suis un développeur logiciel polyvalent et hautement adaptable, capable de créer 
+        des solutions sur mesure avec différents langages, même pour des projets de petite envergure. 
+        Animé par une curiosité insatiable et une détermination à toute épreuve, je suis constamment à 
+        l'affût de nouvelles connaissances et de défis stimulants. Au-delà de ma passion pour le 
+        développement, je cultive également d'autres centres d'intérêt enrichissants qui nourrissent 
+        ma créativité et apportent une perspective unique à chaque projet.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -1,5 +1,6 @@
 import logo from "./logo.png";
 import github from "./github.png";
+import linkWeb from "./link_web.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
 import song from "./song.mp3"
@@ -44,6 +45,7 @@ import carrent from "./carrent.png";
 import navalbattle from "./navalbattle.png";
 import pnrproject from "./pnr.gif";
 import solarsystem from "./SolarSystem.gif"
+import tycolibri from "./tycolibri.png"
 
 export {
   logo,
@@ -51,7 +53,9 @@ export {
   drone,
   underwater,
   pnrproject,
+  tycolibri,
   astronomy,
+  linkWeb,
   github,
   menu,
   surf,
